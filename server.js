@@ -21,7 +21,7 @@ let cars = [
     year: 2022,
     color: "Silver",
     carFeatures: ["Power Windows", "Air Conditioning", "Bluetooth"],
-    img: "images/toyota-camry.jpg",
+    img: "images/toyota-camry.jfif",
   },
   {
     _id: 2,
@@ -30,7 +30,7 @@ let cars = [
     year: 2023,
     color: "Red",
     carFeatures: ["Convertible Top", "Leather Seats", "Backup Camera"],
-    img: "images/ford-mustang.jpg",
+    img: "images/ford-mustang.jfif",
   },
   {
     _id: 3,
@@ -39,7 +39,7 @@ let cars = [
     year: 2021,
     color: "Blue",
     features: ["Sunroof", "Lane Departure Warning", "Apple CarPlay"],
-    img: "images/honda-crv.jpg",
+    img: "images/honda-crv.jfif",
   },
   {
     _id: 4,
@@ -48,7 +48,7 @@ let cars = [
     year: 2022,
     color: "Black",
     features: ["Four-Wheel Drive", "Towing Package", "Touchscreen Infotainment"],
-    img: "images/chevrolet-silverado.jpg",
+    img: "images/chevrolet-silverado.jfif",
   },
   {
     _id: 5,
@@ -57,7 +57,7 @@ let cars = [
     year: 2023,
     color: "White",
     features: ["Keyless Entry", "Remote Start", "Blind Spot Monitoring"],
-    img: "images/nissan-altima.jpg",
+    img: "images/nissan-altima.jfif",
   },
   {
     _id: 6,
@@ -66,7 +66,7 @@ let cars = [
     year: 2021,
     color: "Midnight Silver Metallic",
     features: ["Autopilot", "Electric", "Panoramic Roof"],
-    img: "images/tesla-model-3.jpg",
+    img: "images/tesla-model-3.jfif",
   }
 ];
 
