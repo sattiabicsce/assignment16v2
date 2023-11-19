@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cars</h1>
+        <a href="#" id="add-link">+</a>
+    </header>
+
+    <div class="columns two-columns">
+        <div id="car-list" class="columns"></div>
+        <div id="car-details-column">
+            <h2>Details</h2>
+
+            <div id="car-details"></div>
+        </div>
+    </div>
+    <div id="add-edit-car-container" class="dialog transparent">
+        <span class="close">&times;</span>
+
+        <h3 id="add-edit-title">Car Information</h3>
+        <form id="add-edit-car-form" method="post">
+            <input type="hidden" name="_id" value="-1" />
+            <p>
+                <label for="make">Make:</label>
+                <input type="text" id="make" name="make" required />
+            </p>
+            <p>
+                <label for="model">Model:</label>
+                <input type="text" id="model" name="model" required />
+            </p>
+            <p>
+                <label for="year">Year:</label>
+                <input type="text" id="year" name="year" required />
+            </p>
+            <p>
+                <label for="color">Color:</label>
+                <input type="text" id="color" name="color" required />
+            </p>
+            <p>
+                <label for="img">Upload Image:</label>
+                <input type="file" id="img" name="img" />
+            </p>
+            <p id="features-p">
+                <label class="inline">Features:</label>
+                <a href="#" id="add-feature">Add Feature</a>
+                <section id="feature-boxes"></section>
+            </p>
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
